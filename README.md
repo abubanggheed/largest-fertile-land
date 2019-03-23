@@ -1,6 +1,7 @@
 # Introduction
 This is the largest fertile land problem posted by Tushar Santoki on hackerrank:
 https://www.hackerrank.com/contests/codestar-long-programming-contest/challenges/largest-fertile-land
+
 The challenge is as follows:
 - You are given a really long string as an input.
 - Some of that string is a rectangular plot of land that has fertile and baren patches.
@@ -18,6 +19,7 @@ The inputs for this problem are as follows:
  - a b (2)
  - ...
  - a b (Q)
+
 Here N and M indicates the size of the plot of land.
 Q is the number of subplots to be evaluated.
 a and b are integers between 1 and N, they indicate the rows of the plot that are within that particular subplot.
@@ -28,7 +30,8 @@ The outputs for this problem should look like this:
  - c (2)
  - ...
  - c (Q)
- Each c is the area of the largest rectangle of fertile land within the subplot specified by the input.
+
+Each c is the area of the largest rectangle of fertile land within the subplot specified by the input.
 
 ## Repository Guide
 The algorithm for finding the largest rectangle of fertile land within a rectangular plot of land is found in calculate_land.py
