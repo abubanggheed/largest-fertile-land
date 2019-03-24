@@ -14,7 +14,6 @@ def largest_fertile(input_string):
         top_row = int(input_list[i][0]) - 1
         bottom_row = int(input_list[i][-1])
         plot = Land_Plot(plot_matrix[top_row:bottom_row], 'F')
-        print(plot.matrix)
         out_string += str(plot.process_all_rows().area()) + '\n'
         i += 1
     return out_string
