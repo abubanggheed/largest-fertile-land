@@ -49,7 +49,7 @@ class Land_Plot:
     def process_all_rows(self):
         self.__init__(self.matrix, self.fertile_symbol)
         while(self.active_row < len(self.matrix)):
-            self.process_row
+            self.process_row()
         self.retire_rects(self.active_rects)
         return self.largest_rect
 
