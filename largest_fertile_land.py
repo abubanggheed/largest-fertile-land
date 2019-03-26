@@ -1,4 +1,5 @@
-from calculate_land import Land_Plot, Rect
+from calculate_land import Land_Plot
+from rect import Rect
 
 def largest_fertile(input_string):
     input_list = input_string.splitlines()
