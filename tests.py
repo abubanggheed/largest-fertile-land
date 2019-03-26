@@ -2,7 +2,7 @@ from largest_fertile_land import largest_fertile
 
 inputs = [
     '5 6\nFBBFFB\nFBFFBB\nFFBBFF\nBBFBFF\nBFBBFF\n4\n1 3\n2 4\n1 5\n3 5',
-    '3 6\nBBFFFF\nFFFFBB\nBBFFBB\n2\n1 3\n1 2',
+    '3 6\nBBFFFF\nFFFFBB\nBBFFBB\n2\n1 3\n2 3',
     '4 8\nFFBBFFFF\nFFFFFFBB\nFFBBFFBB\nFFBBBBBB\n3\n1 4\n1 3\n2 4'
 ]
 
